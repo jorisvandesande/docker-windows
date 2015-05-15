@@ -5,6 +5,11 @@ Supplies tools and scripts to work with Docker on Windows. You should place
 this repository somewhere in your user profile path. Because that path is
 automatically shared with the Docker VM.
 
+Your probably need to change your PowerShell execution policy to run the scripts.
+You can do so by running the following command (you need to have administrator privileges):
+
+    Set-ExecutionPolicy remotesigned
+
 b2d.ps1
 -------
 
